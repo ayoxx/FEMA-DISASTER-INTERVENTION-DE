@@ -1,0 +1,9 @@
+workflow.txt
+.env
+venv
+__pycache__
+.env.*
+logs
+data.json
+project_plan.md
+
