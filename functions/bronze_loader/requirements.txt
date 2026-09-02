@@ -1,0 +1,4 @@
+functions-framework==3.10.2
+google-cloud-storage
+google-cloud-bigquery
+cloudevents==1.11.0
