@@ -6,4 +6,9 @@ __pycache__
 logs
 data.json
 project_plan.md
-
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/terraform.tfvars
+terraform/*.zip
+tfplan
