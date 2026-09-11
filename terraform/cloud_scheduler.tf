@@ -2,7 +2,7 @@
 resource "google_cloud_scheduler_job" "fema_extractor" {
   name     = "fema-extractor-schedule"
   region   = var.region
-  schedule = "0 */6 * * *"
+  schedule = "0 6 * * *"
 
   http_target {
     # Use the extractor function's name (the function resource must be deployed
